@@ -3,5 +3,7 @@ let bingoItems = [
     "Biggoron Sword found",
     "Hookshot from Roofio",
     "Second magic in Shadow Temple"
+    "Item or Song is VANILLA"
+    "30 or more skulls logically required"
     // For compatibility reasons, the very last item in the list should not have a comma after it.
 ];
