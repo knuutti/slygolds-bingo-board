@@ -4,4 +4,4 @@ let bingoItems = [
     "Hookshot from Roofio",
     "Second magic in Shadow Temple"
     // For compatibility reasons, the very last item in the list should not have a comma after it.
-]
+];
