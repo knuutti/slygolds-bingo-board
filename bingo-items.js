@@ -41,6 +41,34 @@ let bingoItems = [
     "Foolish Hint in the Foolish location", 
     "Path hints leading to same item",
     "Oops, AD!",
-    "Oops, World Tour!"
+    "Oops, World Tour!",
+    "Reverse Wasteland",
+    "Mido Skip",
+    "King Zora/Mweep Skip",
+    "Chat guesses TCG Correctly",
+    "Ride a bean plant",
+    "Dig skulls out of the dirt",
+    "Push Armos Statue",
+    "Ice Cavern Block Push",
+    "Ice Cavern Glitchless Jump",
+    "Racers in same dungeon simultaneously",
+    "Hover Boots",
+    "Iron Boots",
+    "Shoe% located",
+    "Fashion% located", 
+    "Din's Fire",
+    "Farore's Wind",
+    "Nayru's Love",
+    "spell% located", 
+    "Fire Arrows",
+    "Ice Arrows",
+    "Stone of Agony", 
+    "Lens of Truth", //disable in league settings
+    "Validation Rupee/Greg",
+    "Winner PoH",
+    "Meme% located",
+    "Bottle% located",
+    "Fairy revival"    
+    
     // For compatibility reasons, the very last item in the list should not have a comma after it.
 ];
