@@ -8,7 +8,7 @@ let bingoItems = [
     "Ice Cavern entered before 90 minutes",
     "Chickens (Kakariko)",
     "GTG Toilet",
-    "Comms off the rails", //too subjective?
+    "Comms off the rails", 
     "Emotional Support Fish",
     "Comms makes a pun", //puts intention in charge of bingo rather than luck
     "Richard's mom is a cheapskate (20 rupees or less)",
