@@ -116,8 +116,9 @@ function toggleCell(event, skipSessionStorage = false) {
 function rerollBoard() {
   seed = generateSeedString();
   randomizeBoard();
-  document.querySelectorAll('.marked').forEach(ele => ele.classList.remove('marked'))
-  document.querySelectorAll('.bingo').forEach(ele => ele.classList.remove('bingo'))
+  document.querySelectorAll('.marked').forEach(ele => ele.classList.remove('marked'));
+  document.querySelectorAll('.bingo').forEach(ele => ele.classList.remove('bingo'));
+  document.getElementById('r3c3-td').classList.add('marked'); // free space
 }
 
 function generateSeedString() {
