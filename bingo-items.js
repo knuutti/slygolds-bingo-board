@@ -19,8 +19,12 @@ var bingoItems = [
     "Deku Shield burns away",
     "Link gets Frozen",
     "Forced to wait for Time of Day",
-    "[insert dungeon] Key Logic", //probably just delete this?
-    "[Single check location] is foolish", //dunno how to insert locations like the note sheet does?
+    "Spirit Temple key logic",
+    "Water Temple key logic",
+    "Fire Temple key logic",
+    "Haunted Wasteland is foolish",
+    "Hyrule Castle is foolish",
+    "Outside Ganon's Castle is foolish",
     "Void out",  
     "HBA Score < 1550",
     "Songs R Hard",
@@ -39,7 +43,7 @@ var bingoItems = [
     "Dark Link found a way",
     "Foolish Hint in the Foolish location", 
     "Path hints leading to same item",
-    "Oops, AD!",
+    "Oops, All Dungeons!",
     "Oops, World Tour!",
     "Reverse Wasteland",
     "Mido Skip",
