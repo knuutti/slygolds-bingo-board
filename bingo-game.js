@@ -16,20 +16,10 @@ if (!seed) {
 
 let mySeededRng = new Math.seedrandom('' + seed);
 
-const genSelector = document.getElementById("genSelector");
-// persist gen selection via local storage
-const previouslySelectedGen = localStorage.getItem("selected-generation");
-if (previouslySelectedGen) {
-  genSelector.value = previouslySelectedGen;
-}
-let gen = genSelector.value;
-
 function randomizeBoard() {
-  gen = genSelector.value;
-
   mySeededRng = new Math.seedrandom('' + seed); // this is inconsistent if you pass a number instead of a string
 
-  let pokemonOnTheBoard = [];
+  let itemsOnTheBoard = [];
 
   for (let row = 1; row <= 5; row++) {
     for (let col = 1; col <= 5; col++) {
@@ -39,23 +29,15 @@ function randomizeBoard() {
       }
       let chosen = false
       while (!chosen) {
-        let pokeNum = getSeededRandomInt(1, getPokemonCountByGeneration(gen)) - 1;
-        if (pokemonOnTheBoard.indexOf(pokeNum) < 0) {
+        let itemNum = getSeededRandomInt(1, bingoItems.length) - 1;
+        if (itemsOnTheBoard.indexOf(itemNum) < 0) {
           chosen = true;
-          const chosenPoke = pokemonData[pokeNum]
-          pokemonOnTheBoard.push(pokeNum);
+          const chosenItem = bingoItems[itemNum]
+          itemsOnTheBoard.push(itemNum);
           let cell = document.getElementById("r" + row + "c" + col + "-div");
-          const genImageToUse = chosenPoke['gen' + gen]?.image ? 'gen' + gen : 'gen5'; //fall back to gen 5 as it has (unofficial) sprites for every mon
-          let image = chosenPoke[genImageToUse]['image'];
-          if (gen !== '1' && mySeededRng() < .007) {
-            image = chosenPoke[genImageToUse]['image-shiny'];
-            console.log('shiny', chosenPoke.name)
-          }
+
           cell.innerHTML =
-            "<img class=\"pokeball\" src=\"sprites/poke-ball.png\"/>" +
-            "<img class=\"masterball\" src=\"sprites/master-ball.png\"/>" +
-            "<img class=\"pokemon-sprite " + genImageToUse + "\"" +
-            " src=\"" + image + "\"/><span>" + chosenPoke.name + "</span>";
+            "<span>" + chosenItem + "</span>";
         }
       }
     }
@@ -91,7 +73,7 @@ function checkBingo() {
     if (horizontalCheck.length >= 5) {
       bingoWinners = [...bingoWinners, ...horizontalCheck];
     }
-    verticalCheck = marked.filter(id => id.indexOf('c' + i) >= 0);
+    let verticalCheck = marked.filter(id => id.indexOf('c' + i) >= 0);
     if (verticalCheck.length >= 5) {
       bingoWinners = [...bingoWinners, ...verticalCheck];
     }
@@ -138,11 +120,6 @@ function rerollBoard() {
   document.querySelectorAll('.bingo').forEach(ele => ele.classList.remove('bingo'))
 }
 
-function changeGen() {
-  randomizeBoard();
-  localStorage.setItem("selected-generation", genSelector.value);
-}
-
 function generateSeedString() {
   let urlParams = new URLSearchParams(window.location.search);
   let seed = Math.round(Math.random() * new Date().getTime())
@@ -158,27 +135,4 @@ function getSeededRandomInt(min, max) {
   min = Math.ceil(min);
   max = Math.floor(max);
   return Math.floor(mySeededRng() * (max - min + 1)) + min;
-}
-
-function getPokemonCountByGeneration(generation) {
-  switch (generation) {
-    case "1":
-      return 151;
-    case "2":
-      return 251;
-    case "3":
-      return 386;
-    case "4":
-      return 493;
-    case "5":
-      return 649;
-    case "6":
-      return 721;
-    case "7":
-      return 809;
-    case "8":
-      return 898;
-    default:
-      return 898;
-  }
 }

@@ -105,6 +105,12 @@ button {
   display: none;
 }
 
+.error {
+  padding: 1rem;
+  border: .5rem solid red;
+  background-color: lightcoral;
+}
+
 @media print {
   .no-print,
   .no-print * {
