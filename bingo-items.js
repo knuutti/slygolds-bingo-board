@@ -74,7 +74,7 @@ var bingoItems = [
     "Fairy revival",
     "Market Drawbridge Rupee farming",
     "Dampe hits a fireball", 
-    "Chicken block in Chu Bowling",
+    "Chicken blocks bombchu bowling",
     "Skull Mask Check Complete",
     "See Darunia's Dance", 
     "Mis-time Goron Pot bomb throw",
