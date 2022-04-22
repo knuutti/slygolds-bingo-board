@@ -67,7 +67,7 @@ var bingoItems = [
     "Validation Rupee/Greg located",
     "Winner PoH located",
     "Meme% located",
-    "Fashion% located",
+    "Fashion% located (boots and shirts)",
     "Shoe% located",
     "Spell% located",
     "Bottle% located",
@@ -80,6 +80,6 @@ var bingoItems = [
     "Mis-time Goron Pot bomb throw",
     "Gold Gauntlets Bait",
     "Bait of the Well", 
-        
+    "Fire BK on Pierre or Hammer chest"        
         // For compatibility reasons, the very last item in the list should not have a comma after it.
 ];
