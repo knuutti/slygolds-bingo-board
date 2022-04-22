@@ -90,7 +90,7 @@ button {
 .error {
   padding: 1rem;
   border: .5rem solid red;
-  background-color: lightcoral;
+  background-color: #ffa0a0;
 }
 
 @media print {
