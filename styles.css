@@ -73,36 +73,12 @@ button {
   margin: 0 auto;
 }
 
-.oak-sprite {
-  height: 60px;
-}
-
 .seed-label {
   font-size: small;
 }
 
-.pokeball {
-  display: none;
-}
-
-.masterball {
-  display: none;
-}
-
-.marked .pokeball {
-  display: block;
-}
-
-.marked.bingo .pokeball {
-  display: none;
-}
-
-.marked.bingo .masterball {
-  display: block;
-}
-
-.marked .pokemon-sprite {
-  display: none;
+.marked.bingo {
+  background-color: lightgreen;
 }
 
 .error {
@@ -145,21 +121,5 @@ button {
   .settings-section select {
     width: 4rem;
     font-size: 2rem;
-  }
-
-  .pokemon-sprite {
-    /*width: strech;*/
-    width: -webkit-fill-available;
-    width: -moz-fill-available;
-    max-width: 150px;
-  }
-
-  .oak-sprite {
-    height: 90px;
-  }
-
-  .pokeball,
-  .masterball {
-    height: 60px;
   }
 }
