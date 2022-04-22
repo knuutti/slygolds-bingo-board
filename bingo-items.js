@@ -32,7 +32,7 @@ var bingoItems = [
     "Tunic or Wallet in Path location", 
     "Stone Dungeon Boss required by Logic",
     "Chicken Abandons Link",
-    "Crushed"
+    "Crushed",
     "Iron Knuckle Death",
     "Burn timer death",
     "Drown Timer Death", 
