@@ -80,6 +80,11 @@ var bingoItems = [
     "Mis-time Goron Pot bomb throw",
     "Gold Gauntlets Bait",
     "Bait of the Well", 
-    "Fire BK on Pierre or Hammer chest"        
+    "2-cycle Gohma",
+    "Light Arrows inside Ganon's castle",
+    "Fire BK on Pierre or Hammer chest",
+    "NUTgrade", 
+    "Back of Shadow not required",
+    
         // For compatibility reasons, the very last item in the list should not have a comma after it.
 ];
