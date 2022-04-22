@@ -36,8 +36,9 @@ function randomizeBoard() {
           itemsOnTheBoard.push(itemNum);
           let cell = document.getElementById("r" + row + "c" + col + "-div");
 
-          cell.innerHTML =
-            "<span>" + chosenItem + "</span>";
+          let spanElement = document.createElement("span");
+          spanElement.innerText = chosenItem;
+          cell.replaceChildren(spanElement);
         }
       }
     }
