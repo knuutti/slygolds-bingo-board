@@ -28,7 +28,6 @@ var bingoItems = [
     "Double Defense located",
     "Tunic/Wallet in Path location", 
     "Stone Dungeon Boss required by Logic",
-    "Stream intro full of bangers (Free Space)", //can the Free Space be overwritten with this one?
     "Chicken Abandons Link",
     "Iron Knuckle Death",
     "Burn timer death",
