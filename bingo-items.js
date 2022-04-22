@@ -84,6 +84,7 @@ var bingoItems = [
     "Light Arrows inside Ganon's castle",
     "Fire BK on Pierre or Hammer chest",
     "NUTgrade", 
+    "Deku B1 Skip",
     "Back of Shadow not required"
     // For compatibility reasons, the very last item in the list should not have a comma after it.
 ];
