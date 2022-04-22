@@ -63,7 +63,7 @@ var bingoItems = [
     "Fire Arrows located",
     "Ice Arrows located",
     "Stone of Agony located", 
-    "Lens of Truth located", //disable in league settings
+    //"Lens of Truth located", //disable in league settings
     "Validation Rupee/Greg located",
     "Winner PoH located",
     "Meme% located",
