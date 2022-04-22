@@ -1,4 +1,4 @@
-let bingoItems = [
+var bingoItems = [
     // Add bingo items to this list. If you must use the double quote character (") in an item, escape it like this: \"
     "Biggoron Sword found",
     "Hookshot from Roofio",
