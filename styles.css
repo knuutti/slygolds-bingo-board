@@ -28,6 +28,12 @@ h1 {
   text-align: center;
 }
 
+h1 .header-sprite {
+  display: inline-block;
+  height: 1em;
+  vertical-align: middle;
+}
+
 table {
   margin-bottom: 15px;
 }
