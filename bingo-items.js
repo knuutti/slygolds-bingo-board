@@ -19,8 +19,8 @@ let bingoItems = [
     "Deku Shield burns away",
     "Link gets Frozen",
     "Forced to wait for Time of Day",
-    "[insert dungeon] Key Logic" //probably just delete this?
-    "[Single check location] is foolish" //dunno how to insert locations like the note sheet does?
+    "[insert dungeon] Key Logic", //probably just delete this?
+    "[Single check location] is foolish", //dunno how to insert locations like the note sheet does?
     "Void out",  
     "HBA Score < 1550",
     "Songs R Hard",
