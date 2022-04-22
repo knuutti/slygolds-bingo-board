@@ -32,13 +32,14 @@ var bingoItems = [
     "Tunic or Wallet in Path location", 
     "Stone Dungeon Boss required by Logic",
     "Chicken Abandons Link",
+    "Crushed"
     "Iron Knuckle Death",
     "Burn timer death",
     "Drown Timer Death", 
     "Missing Always Hint at 90 minutes",
     "Missing Path Hint at 90 minutes", 
     "Hard AD discovered after 60 minutes", 
-    "Racer gets bailed out after missing logic",
+    "Racer gets bailed out",
     "Dark Link found a way",
     "Foolish Hint in the *same* Foolish location", 
     "Path hints leading to same item",
@@ -70,7 +71,15 @@ var bingoItems = [
     "Shoe% located",
     "Spell% located",
     "Bottle% located",
-    "Fairy revival"    
-    
-    // For compatibility reasons, the very last item in the list should not have a comma after it.
+    "Fairy revival",
+    "Market Drawbridge Rupee farming",
+    "Dampe hits a fireball", 
+    "Chicken block in Chu Bowling",
+    "Skull Mask Check Complete",
+    "See Darunia's Dance", 
+    "Mis-time Goron Pot bomb throw",
+    "Gold Gauntlets Bait",
+    "Bait of the Well", 
+        
+        // For compatibility reasons, the very last item in the list should not have a comma after it.
 ];
