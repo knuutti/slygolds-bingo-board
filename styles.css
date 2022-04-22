@@ -16,6 +16,23 @@ body {
   width: 2rem;
 }
 
+.rules-section {
+  border: 1px solid #444;
+  background-color: powderblue;
+  padding: 0.5rem;
+  font-size: small;
+}
+
+.rules-section ol {
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style: decimal;
+}
+.rules-section li {
+  margin-left: 1rem;
+  width: calc(665px - 2rem);
+}
+
 header button {
   padding: 1rem;
 }
@@ -88,8 +105,8 @@ button {
 }
 
 .error {
-  padding: 1rem;
-  border: .5rem solid red;
+  padding: .5rem;
+  border: 2px solid red;
   background-color: #ffa0a0;
 }
 
@@ -127,5 +144,9 @@ button {
   .settings-section select {
     width: 4rem;
     font-size: 2rem;
+  }
+
+  .rules-section li {
+    width: 810px;
   }
 }
