@@ -8,7 +8,6 @@ var bingoItems = [
     "Ice Cavern entered before 90 minutes",
     "Chickens (Kakariko) check completed",
     "GTG Toilet check completed",
-    // "Comms off the rails", //commenting out per Winnie's request
     "Emotional Support Fish located",
     "Comms makes a pun", //puts intention in charge of bingo rather than luck
     "Richard's mom is a cheapskate (ammo or <50 rupees)",
@@ -63,7 +62,7 @@ var bingoItems = [
     "Fire Arrows located",
     "Ice Arrows located",
     "Stone of Agony located", 
-    //"Lens of Truth located", //disable in league settings
+    "Lens of Truth located", //disable in league settings
     "Validation Rupee/Greg located",
     "Winner PoH located",
     "Meme% located",
