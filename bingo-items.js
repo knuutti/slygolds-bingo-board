@@ -85,5 +85,15 @@ var bingoItems = [
     "NUTgrade", 
     "Deku B1 Skip",
     "Back of Shadow not required"
+    "2 or more paths for one boss",
+    "Kakariko is path",
+    "Medallion dungeon Foolish",
+    "Stone Dungeon Path", 
+    "BotW without ZL *OR* bombs",
+    "Scumming keys",
+    "LA hint from Ganon",
+    "any Frogs check completed",
+    "King Dodongo chu strats",
+    "Buying a Shield"
     // For compatibility reasons, the very last item in the list should not have a comma after it.
 ];
