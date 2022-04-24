@@ -84,7 +84,7 @@ var bingoItems = [
     "Fire BK on Pierre or Hammer chest",
     "NUTgrade", 
     "Deku B1 Skip",
-    "Back of Shadow not required"
+    "Back of Shadow not required",
     "2 or more paths for one boss",
     "Kakariko is path",
     "Medallion dungeon Foolish",
