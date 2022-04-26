@@ -14,12 +14,12 @@ var bingoItems = [
     "OoT is picked up",
     "Morpha Quick Grab",
     "Tennis Troll (Phantom Ganon or Ganondorf)",
-    "Commentators mention MQ dungeons",
+    //"Commentators mention MQ dungeons", too specific to specific comms
     "Deku Shield burns away",
     "Link gets frozen",
     "Racer forced to wait for Time of Day",
     "Spirit Temple key logic",
-    "Water Temple key logic",
+    "Water Temple key logic", //needs to be more fleshed out
     "Fire Temple key logic",
     "Haunted Wasteland is foolish",
     "Hyrule Castle is foolish",
@@ -31,14 +31,14 @@ var bingoItems = [
     "Tunic or Wallet in Path location", 
     "Stone Dungeon Boss required by Logic",
     "Chicken abandons Link",
-    "Crushed",
+    "Crush death",
     "Link dies to an Iron Knuckle",
     "Link dies to the burn timer",
     "Link dies to the drown timer",
-    "Missing *UNIQUE* Always Hint at 90 minutes",
-    "Missing *UNIQUE* Path Hint at 90 minutes", 
+    "Missing *UNIQUE* Always Hint at 90 minutes", //change to 60?
+    "Missing *UNIQUE* Path Hint at 90 minutes", //change to 60?
     "Hard AD discovered after 60 minutes or more",
-    "Racer gets bailed out",
+    //"Racer gets bailed out", need to define better
     "Dark Link finds a way",
     "Foolish Hint in the *same* Foolish location", 
     "Multiple Path hints leading to same item",
@@ -62,7 +62,7 @@ var bingoItems = [
     "Fire Arrows located",
     "Ice Arrows located",
     "Stone of Agony located", 
-    "Lens of Truth located", //disable in league settings
+    //"Lens of Truth located", //disable in league settings
     "Validation Rupee/GREG located",
     "Winner PoH located",
     "Meme% located",
@@ -95,6 +95,14 @@ var bingoItems = [
     "Light Arrows hint from Ganondorf *REQUIRED*",
     "Racer completes either Frogs check",
     "Racer uses Bombchus against King Dodongo",
-    "Racer buys a Shield"
+    "Racer buys a Shield",
+    "back of lake hints read",
+    "#FreetheGorons - talk to a goron in fire temple",
+    "Dancing dad check completed",
+    "Hit the hint stone",
+    "complete an adult (vanilla) dungeon without a logically required item",
+    "Enabled trick logically required",
+    "Racer breaks out of logic", //freebie?
+    "Nice rupee count called out"
     // For compatibility reasons, the very last item in the list should not have a comma after it.
 ];
