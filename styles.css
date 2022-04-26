@@ -23,6 +23,10 @@ body {
   font-size: small;
 }
 
+.rules-section summary {
+  cursor: pointer;
+}
+
 .rules-section ol {
   margin-bottom: 0;
   padding-left: 0;
