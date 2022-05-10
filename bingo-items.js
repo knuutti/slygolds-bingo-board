@@ -105,6 +105,8 @@ var bingoItems = [
     "Racer breaks out of logic", //freebie?
     "Nice rupee count called out",
     "Song is path item",
+    "Kakariko is path location",
+    "Kakariko is foolish location",
     "Bombchus found before first bomb bag (any racer)"
     // For compatibility reasons, the very last item in the list should not have a comma after it.
 ];
