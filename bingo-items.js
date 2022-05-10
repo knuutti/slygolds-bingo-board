@@ -103,6 +103,8 @@ var bingoItems = [
     "complete an adult (vanilla) dungeon without a logically required item",
     "Enabled trick logically required",
     "Racer breaks out of logic", //freebie?
-    "Nice rupee count called out"
+    "Nice rupee count called out",
+    "Song is path item",
+    "Bombchus found before first bomb bag (any racer)"
     // For compatibility reasons, the very last item in the list should not have a comma after it.
 ];
