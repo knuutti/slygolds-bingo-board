@@ -80,7 +80,7 @@ var bingoItems = [
     "Hit the hint stone",
     "complete an adult (vanilla) dungeon without a logically required item",
     "Enabled trick logically required",
-    //"Racer breaks out of logic", //freebie?
+    //"Racer breaks out of logic",
     "Nice rupee count called out",
     "Song is path item",
     "Kakariko is foolish location",
