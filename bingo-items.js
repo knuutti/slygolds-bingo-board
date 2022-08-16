@@ -57,7 +57,7 @@ var bingoItems = [
     "Hover Boots located",
     "Iron Boots located",
     "Din's Fire located",
-    "Farore's Wind located",
+    //"Farore's Wind located",
     "Nayru's Love located",
     "Fire Arrows located",
     "Ice Arrows located",
