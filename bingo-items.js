@@ -86,7 +86,7 @@ var bingoItems = [
     "NUTgrade (Racer finds a Deku Nut capacity upgrade)",
     "Racer executes B1 Skip in Deku Tree",
     "Back of Shadow not required",
-    "2 or more paths leading to one boss",
+    "multiple paths leading to one boss",
     "Water is wet (Kakariko is a Path location)",
     "Medallion dungeon foolish",
     "Stone Dungeon is a Path location",
