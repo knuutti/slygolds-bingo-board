@@ -7,6 +7,7 @@ var bingoItems = [
     "30+ Skulltullas required",
     "Ice Cavern entered before 90 minutes",
     "Chickens (Kakariko) check completed",
+    "Wasteland check completed",
     "GTG Toilet (sunken silver rupees) check completed",
     "Emotional Support Fish (fish in a bottle) located",
     "Commentators make a pun", //puts intention in charge of bingo rather than luck
