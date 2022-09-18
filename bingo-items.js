@@ -88,7 +88,6 @@ var bingoItems = [
     "Racer executes B1 Skip in Deku Tree",
     "Back of Shadow not required",
     "multiple paths leading to one boss",
-    "Water is wet (Kakariko is a Path location)",
     "Medallion dungeon foolish",
     "Stone Dungeon is a Path location",
     "Racer enters Bottom of the Well without ZL *OR* bombs",
