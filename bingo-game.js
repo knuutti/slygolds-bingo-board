@@ -16,6 +16,9 @@ if (!seed) {
 }
 if (!tag) {
   tag = "1";
+  const url = new URL(window.location.href);
+  url.searchParams.set('tag', "1");
+  window.history.replaceState(null, null, url);
 }
 
 let mySeededRng = new Math.seedrandom('' + seed);
@@ -136,9 +139,10 @@ function rerollBoard() {
 function generateSeedString() {
   let urlParams = new URLSearchParams(window.location.search);
   let seed = Math.round(Math.random() * new Date().getTime())
-  urlParams.set('seed', seed);
+  //urlParams.set('seed', seed);
   const url = new URL(window.location.href);
   url.searchParams.set('seed', seed);
+  url.searchParams.set('tag', tag);
   window.history.replaceState(null, null, url);
   return seed;
 }
