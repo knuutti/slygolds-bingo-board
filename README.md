@@ -1,9 +1,8 @@
-# The Silver Gauntlets bingo board
+# SlyGolds bingo board
 
-This is a fun little bingo board for special occasions over on
-[The Silver Gauntlets](https://twitch.tv/thesilvergauntlets) Twitch channel.
+This is a bingo board for SlyGolds Events streams over on
+[SlyGolds](https://twitch.tv/slygolds) Twitch channel.
 
-Hosting this on Github Pages is still a big ol' TODO, but once it's ready, it will be available here:
-https://tobiasgies.github.io/tsg-bingo-board/
+The bingo board generator is hosted at https://knuutti.github.io/tsg-bingo-board/
 
-This project is largely based on the work of [valiant-code](https://github.com/valiant-code). Thanks so much!
+This project is forked from https://github.com/tobiasgies/tsg-bingo-board and basically the whole structure is based on their work. I have only made some small adjustments to make the project to work for our needs.
