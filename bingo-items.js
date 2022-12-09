@@ -35,3 +35,53 @@ var bingoItems = [
 
     // For compatibility reasons, the very last item in the list should not have a comma after it.
 ];
+
+var bingoItems2 = [
+    // Add bingo items to this list. If you must use the double quote character (") in an item, escape it like this: \"
+    "Sly",
+    "Sly",
+    "Sly",
+    "Sly",
+    "Sly",
+    "Sly",
+    "Sly",
+    "Sly",
+    "Sly",
+    "Sly",
+    "Sly",
+    "Sly",
+    "Sly",
+    "Sly",
+    "Sly",
+    "Sly",
+    "Sly",
+    "Sly",
+    "Sly",
+    "Sly",
+    "Sly",
+    "Sly",
+    "Sly",
+    "Sly",
+    "Sly",
+    "Sly",
+    "Sly",
+    "Sly",
+    "Sly",
+    "Sly",
+    "Sly",
+    "Sly",
+    "Sly",
+    "Sly",
+    "Sly",
+    "Sly",
+    "Sly",
+    "Sly",
+    "Sly",
+    "Sly",
+    "Sly",
+    "Sly",
+    "Sly",
+    "TRUCKIN"
+
+    // For compatibility reasons, the very last item in the list should not have a comma after it.
+];

@@ -1,5 +1,6 @@
 let urlParams = new URLSearchParams(window.location.search);
 let seed = urlParams.get('seed')
+let tag = urlParams.get('tag')
 let allCells = [
   'r1c1', 'r1c2', 'r1c3', 'r1c4', 'r1c5',
   'r2c1', 'r2c2', 'r2c3', 'r2c4', 'r2c5',
@@ -13,6 +14,10 @@ let diagonal2 = ['r5c1', 'r4c2', 'r3c3', 'r2c4', 'r1c5']
 if (!seed) {
   seed = generateSeedString();
 }
+
+if (!tag) {[
+  tag = "1"
+]}
 
 let mySeededRng = new Math.seedrandom('' + seed);
 
@@ -32,7 +37,12 @@ function randomizeBoard() {
         let itemNum = getSeededRandomInt(1, bingoItems.length) - 1;
         if (itemsOnTheBoard.indexOf(itemNum) < 0) {
           chosen = true;
-          const chosenItem = bingoItems[itemNum]
+          if (tag === "1"){
+            const chosenItem = bingoItems[itemNum]
+          }
+          else {
+            const chosenItem = bingoItems2[itemNum]
+          }
           itemsOnTheBoard.push(itemNum);
           let cell = document.getElementById("r" + row + "c" + col + "-div");
 
