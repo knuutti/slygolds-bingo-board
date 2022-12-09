@@ -1,4 +1,4 @@
-var bingoItems = [
+var bingoItems1 = [
     // Add bingo items to this list. If you must use the double quote character (") in an item, escape it like this: \"
     "Biggoron Sword found",
     "Hookshot from Roofio (man on roof in Kakariko)",
@@ -85,5 +85,57 @@ var bingoItems = [
     "Song is path item",
     "Kakariko is foolish location",
     "Bombchus found before first bomb bag (any racer)"
+    // For compatibility reasons, the very last item in the list should not have a comma after it.
+];
+
+var bingoItems1 = [
+    // Add bingo items to this list. If you must use the double quote character (") in an item, escape it like this: \"
+    "Sly",
+    "Sly",
+    "Sly",
+    "Sly",
+    "Sly",
+    "Sly",
+    "Sly",
+    "Sly",
+    "Sly",
+    "Sly",
+    "Sly",
+    "Sly",
+    "Sly",
+    "Sly",
+    "Sly",
+    "Sly",
+    "Sly",
+    "Sly",
+    "Sly",
+    "Sly",
+    "Sly",
+    "Sly",
+    "Sly",
+    "Sly",
+    "Sly",
+    "Sly",
+    "Sly",
+    "Sly",
+    "Sly",
+    "Sly",
+    "Sly",
+    "Sly",
+    "Sly",
+    "Sly",
+    "Sly",
+    "Sly",
+    "Sly",
+    "Sly",
+    "Sly",
+    "Sly",
+    "Sly",
+    "Sly",
+    "Sly",
+    "Sly",
+    "Sly",
+    "Sly",
+    "Sly"
     // For compatibility reasons, the very last item in the list should not have a comma after it.
 ];

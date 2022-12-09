@@ -14,22 +14,28 @@ let diagonal2 = ['r5c1', 'r4c2', 'r3c3', 'r2c4', 'r1c5']
 if (!seed) {
   seed = generateSeedString();
 }
-
-if (!tag) {[
-  tag = "1"
-]}
+if (!tag) {
+  tag = "1";
+}
 
 let mySeededRng = new Math.seedrandom('' + seed);
 
 function randomizeBoard() {
   mySeededRng = new Math.seedrandom('' + seed); // this is inconsistent if you pass a number instead of a string
 
+  if (tag == "1") {
+    bingoItems = bingoItems1;
+  }
+  else {
+    bingoItems = bingoItems2;
+  }
+
   let itemsOnTheBoard = [];
 
   for (let row = 1; row <= 5; row++) {
     for (let col = 1; col <= 5; col++) {
       if (row === 3 && col === 3) {
-        //free space
+        // Free space
         continue;
       }
       let chosen = false
@@ -37,12 +43,7 @@ function randomizeBoard() {
         let itemNum = getSeededRandomInt(1, bingoItems.length) - 1;
         if (itemsOnTheBoard.indexOf(itemNum) < 0) {
           chosen = true;
-          if (tag === "1"){
-            const chosenItem = bingoItems[itemNum]
-          }
-          else {
-            const chosenItem = bingoItems2[itemNum]
-          }
+          const chosenItem = bingoItems[itemNum];
           itemsOnTheBoard.push(itemNum);
           let cell = document.getElementById("r" + row + "c" + col + "-div");
 
