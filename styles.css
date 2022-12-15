@@ -82,11 +82,11 @@ td:hover {
 }
 
 .marked {
-  background-color: rgb(86, 47, 0);
+  background-color: #085097;
 }
 
 .marked:hover {
-  background-color: rgb(112, 77, 31)
+  background-color: #085097;
 }
 
 button {
@@ -95,7 +95,7 @@ button {
   font-size: 1.2rem;
   padding: 0.5rem;
   border: 1px solid black;
-  background-color: #181a1b;
+  background-color: #28632a;
   border-color: rgb(140, 130, 115);
   color: #e8e6e3;
 }
