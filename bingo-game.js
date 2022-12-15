@@ -1,6 +1,6 @@
 let urlParams = new URLSearchParams(window.location.search);
 let seed = urlParams.get('seed')
-let tag = urlParams.get('tag')
+let game = urlParams.get('game')
 let allCells = [
   'r1c1', 'r1c2', 'r1c3', 'r1c4', 'r1c5',
   'r2c1', 'r2c2', 'r2c3', 'r2c4', 'r2c5',
@@ -14,10 +14,12 @@ let diagonal2 = ['r5c1', 'r4c2', 'r3c3', 'r2c4', 'r1c5']
 if (!seed) {
   seed = generateSeedString();
 }
-if (!tag) {
-  tag = "1";
+
+// no game tag picked -> make it general
+if (!game) {
+  game = "0";
   const url = new URL(window.location.href);
-  url.searchParams.set('tag', "1");
+  url.searchParams.set('game', "0");
   window.history.replaceState(null, null, url);
 }
 
@@ -26,12 +28,23 @@ let mySeededRng = new Math.seedrandom('' + seed);
 function randomizeBoard() {
   mySeededRng = new Math.seedrandom('' + seed); // this is inconsistent if you pass a number instead of a string
 
-  if (tag == "1") {
-    bingoItems = bingoItems1;
+  if (game == "1") {
+    bingoItems = itemsSly1;
+  }
+  else if (game == "2") {
+    bingoItems = itemsSly2;
+  }
+  else if (game == "3") {
+    bingoItems = itemsSly3;
+  }
+  else if (game == "4") {
+    bingoItems = itemsSly4;
   }
   else {
-    bingoItems = bingoItems2;
+    bingoItems = [];
   }
+
+  bingoItems = bingoItems.concat(itemsGeneral);
 
   let itemsOnTheBoard = [];
 
@@ -142,7 +155,7 @@ function generateSeedString() {
   //urlParams.set('seed', seed);
   const url = new URL(window.location.href);
   url.searchParams.set('seed', seed);
-  url.searchParams.set('tag', tag);
+  url.searchParams.set('game', game);
   window.history.replaceState(null, null, url);
   return seed;
 }
