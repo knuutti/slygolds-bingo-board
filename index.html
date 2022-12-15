@@ -14,9 +14,6 @@
   <body>
     <div class="game-container">
       <div>
-        <div class="settings-section no-print">
-          <button id="dark-mode-btn">Toggle Dark Mode</button>
-        </div>
         <header>
           <h1>
             <img src="sprites/slygolds.png" class="header-sprite" alt="SlyGolds' Logo" />
@@ -120,29 +117,7 @@
       </table>
       <button class="no-print" onclick="rerollBoard()">Reroll</button>
       <p id="seed-label" class="seed-label">Seed: Uninitialized</p>
-      <details class="rules-section no-print">
-        <summary>Rules</summary>
-        <p>You know how Bingo works. These rules just clarify some edge cases.</p>
-        <ol>
-          <li>
-            An item counts as <em>located</em> as soon as we know where it is. Runners don't need to collect the item.
-            A hint for its location or a peek counts just as much.
-          </li>
-          <li>
-            You alone are responsible for identifying when you need to check off a square. If you miss one, too bad.
-          </li>
-          <li>
-            If you report a false Bingo, you must sing a song.
-          </li>
-          <li>
-            Not all Bingo cards are created equal, that's the nature of a random number generator.
-          </li>
-          <li>
-            <strong>Most importantly: Have fun!</strong>
-          </li>
-          <!-- Add rules to the list in <li></li> tags. <em> tags display in italics, <strong> makes things bold. -->
-        </ol>
-      </details>
+      
     </div>
   </body>
   <script src="bingo-game.js" type="text/javascript"></script>

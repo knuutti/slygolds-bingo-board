@@ -162,7 +162,7 @@ var itemsGeneral = [
     "TAS is mentioned",
     "Hulla goes to bed",
     "Casual player joins stream and discovers speedrunning of their favorite game",
-    "Chat/Commentators asks to check SRC for runner's PB in category",
+    "Commentators asks to check SRC for runner's PB in category",
     "Low controller battery warning on runner's screen",
     "Raid (5+ viewers)",
     "Awkward delay pause after run start countdown",
