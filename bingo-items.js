@@ -47,7 +47,7 @@ var itemsGeneral = [
     "\"Submit your golds\"",
     "GDQ/ESA is mentioned",
     "\"I miss <old runner>...\"",
-    "Neon joins the chat",
+    //"Neon joins the chat",
     "TAS is mentioned",
     "Hulla goes to bed",
     "Casual player joins stream and discovers speedrunning of their favorite game",
