@@ -59,5 +59,7 @@ var itemsGeneral = [
     "Furries called out",
     "\"Did you watch the tutorial?\"",
     "Console crash",
+    "A Prediction Option with the Fewest Bets Wins",
+    "A Prediction Option with the Most Bets Wins",
     "Stream goes down"
 ];
