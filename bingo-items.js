@@ -29,15 +29,25 @@ var itemsSly4 = [
     "Missed ICSS in Getting Stronger",
     "3x or more Sumo minigame in Getting Stronger",
     "500 loot in Paris",
+    "Successful quick-kill on Alter Ego boss",
     "Paris ICSS",
+    "Damage-less Alter Ego hack",
+    "Two or more dialogue skips in Duty Calls",
+    "Binocucom CSS",
     "Galleth mentions Fortnite",
     "0:30 or better Grand Key Larceny",
+    "Dies/Detected during RC segment",
+    "0:50 or better fishing in Something's Fishy",
     "Runner misses El Jefe one-cycle"
 ];
 
 var itemsGeneral = [
     "Chat mentions Sly 5",
+    "Oggy swearing",
+    "Technical difficulties",
+    "Oggy strats",
     "SlyGolds gets a shoutout in chat",
+    "Trophy pop-up on screen",
     "Scam Train",
     "Gift sub(s)",
     "Chat is lewd",
