@@ -41,6 +41,20 @@ var itemsSly4 = [
     "Runner misses El Jefe one-cycle"
 ];
 
+var itemsSly4OptimalLoot = [
+    "Runner dies",
+    "Murray is used for looting",
+    "Runner loads a wrong file",
+    "Optimal loot from the first guard of the episode",
+    "Optimal loot after 7 minutes in the episode",
+    "Job Replay is used",
+    "Ancestor is used for looting",
+    "Restart Checkpoint is used",
+    "Runners wins the race after being two episodes behind",
+    "Both runners acquire 500 loot within 10 seconds",
+    "\"Bad luck\" is mentioned"
+]
+
 var itemsGeneral = [
     "Chat mentions Sly 5",
     "Oggy swearing",

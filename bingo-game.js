@@ -40,6 +40,9 @@ function randomizeBoard() {
   else if (game == "4") {
     bingoItems = itemsSly4;
   }
+  else if (game == "OLT") {
+    bingoItems = itemsSly4OptimalLoot;
+  }
   else {
     bingoItems = [];
   }
