@@ -1,0 +1,287 @@
+@font-face {
+    font-family: 'misterpixel';
+    src:  url('./MisterPixelRegular.otf') format('truetype');
+}
+@font-face {
+    font-family: 'alagard';
+    src:  url('/Alagardplus.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'ubuntu';
+    src:  url('fonts/Blambot\ Casual\ Regular.ttf') format('truetype');
+}
+body {
+    background-image: url("img/bg.png");
+    background-color: black;
+    background-position: top center;
+    font-family: ubuntu;
+    font-size: 48px;
+    color: #2f0028;
+    padding: 0;
+    margin: 0;
+}
+
+#fillguide{
+    width: 760px;
+    max-width: 90%;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    border: solid 3px #2f0028;
+    border-radius: 15px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-5deg);
+    box-sizing: border-box;
+    font-size: 30px;
+    text-align: center;
+    display: none;
+    animation-timing-function: ease-in-out;
+    animation-name: slide-to-view;
+    animation-duration: 1s;
+}
+
+@keyframes slide-to-view {
+  from {top: 0%}
+  to {top: 50%}
+}
+
+#closeguide{
+    text-decoration: underline;
+    color: #73b1c4;
+    font-size: 40px;
+    margin-top: 20px;
+    padding: 0 20px;
+    cursor: pointer;
+    display: inline-block;
+}
+#bottomtext{
+    margin-top: 10px;
+    font-size: 30px;
+    opacity: 70%;
+}
+.speedbody{
+    background-color: #decc88;
+}
+
+.header{
+    text-align: center;
+    justify-content: space-around;
+    overflow: hidden;
+    width: 100%;
+}
+
+
+.header > img{
+    margin-left: -50px;
+    margin-right: -50px;
+    width: 800px;
+    max-width: 95%;
+}
+
+.content{
+    width: 800px;
+    max-width: 95%;
+    margin: auto;
+    text-align: center;
+    text-shadow: 2px 2px #b1bea7;
+}
+.bingo-text{
+    margin-top: 20px;
+    margin-bottom: 50px;
+    font-family: ubuntu;
+    font-size: 52px;
+    display: flex;
+    justify-content: space-around;
+}
+input{
+    font-family: ubuntu;
+    font-size: 48px;
+}
+.button{
+    display: inline-block;
+    margin: 20px;
+    padding: 20px 50px 20px 50px;
+    border: 5px solid #727e15;
+    border-radius: 15px;
+    background-color: #eaff66;
+    user-select: none;
+    cursor: pointer;
+}
+
+.disabled{
+    border: 5px solid #d72b3f;
+    background-color: #df5e6d;
+    color: #d72b3f;
+    cursor: auto;
+}
+
+.cookiepolicy{
+    font-size: 20px;
+}
+
+.board{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: auto;
+    justify-content: space-around;
+}
+.board-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.board-cell{
+    background-color: rgba(241, 238, 234, 0.7);
+    position: relative;
+    width: 20%;
+    margin: 5px;
+    border: solid 3px #2f0028;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.unlocked{
+    background: url("img/cellbg.png");
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    color: #e6f5d8;
+    text-shadow: 2px 2px #2f0028;
+}
+
+.board-cell:after {
+  content: "";
+  display: block;
+  padding-bottom: 100%;
+}
+.cell{
+    pointer-events: none;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    width: 98%;
+    height: 98%;
+    margin: 1%;
+    user-select: none;
+    cursor: pointer;
+    word-wrap: break-word;
+}
+.cell div, .hover div{
+    pointer-events: none;
+    padding-top: 2px;
+    width: 100%;
+    font-size: 19px;
+    line-height: 18px;
+}
+.hover {
+    pointer-events: none;
+    position: absolute;
+    user-select: none;
+    align-items: center;
+    cursor: pointer;
+    word-wrap: break-word;
+    display: none;
+    height: 100%;
+    width: 100%;
+    z-index: 100;
+    color: white;
+}
+
+.clicked{
+    background-color: rgba(255, 206, 141, 0.7);
+    animation-name: hover_color;
+    animation-duration: 2s;
+}
+
+.show_hover{
+    background: rgba(43, 132, 165, 0.7);
+    color: #e6f5d8;
+    text-shadow: 2px 2px #2f0028;
+}
+.show_hover > .hover{
+    display: flex;
+}
+.show_hover > .cell{
+    display: none;
+}
+
+
+@keyframes hover_color {
+  from {background-color: rgba(255, 231, 202, 0.7);}
+  to {background-color: rgba(121, 66, 16, 0.7);}
+}
+
+
+.speed div{
+    width: 100%;
+    font-size: 56px;
+    line-height: 56px;
+}
+
+
+@media only screen and (max-width: 800px) {
+
+    .cell div, .hover div{
+        font-size: 17px;
+        line-height: 16px;
+    }
+    .speed div {
+        font-size: 48px;
+    }
+}
+@media only screen and (max-width: 700px) {
+
+    .cell div, .hover div{
+        font-size: 15px;
+        line-height: 14px;
+    }
+    .speed div {
+        font-size: 40px;
+    }
+}
+@media only screen and (max-width: 640px) {
+
+    .cell div, .hover div{
+        font-size: 13px;
+        line-height: 12px;
+    }
+    .speed div {
+        font-size: 32px;
+    }
+}
+@media only screen and (max-width: 560px) {
+
+    .cell div, .hover div {
+        font-size: 11px;
+        line-height: 10px;
+    }
+
+    .speed div {
+        font-size: 26px;
+    }
+}
+@media only screen and (max-width: 480px) {
+
+    .cell div, .hover div {
+        font-size: 10px;
+        line-height: 9px;
+    }
+
+    .speed div {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+
+    .cell div, .hover div {
+        font-size: 8px;
+        line-height: 7px;
+    }
+
+    .speed div {
+        font-size: 18px;
+    }
+}
+

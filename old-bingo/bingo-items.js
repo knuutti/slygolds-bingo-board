@@ -41,6 +41,50 @@ var itemsSly4 = [
     "Runner misses El Jefe one-cycle"
 ];
 
+let itemsFectaRelay = [
+    // General
+    "Team USA misses a trick",
+    "Team FIN misses a trick",
+    "Controller batter warning pop-up",
+    "Stream drops frames",
+    "Commentator takes bathroom break",
+    "Unoptimal death",
+    "Unoptimal water/void damage",
+    "Carmelita kills a guard (Sly 2/3)",
+    "Runner collects a bottle",
+    "Soundlock",
+    "Hardlock",
+    "Purchased wrong gadget in ThiefNet",
+
+    // Sly 1
+    "0:40 or better Down Home Cooking",
+
+    // Sly 2
+    "Smoke bomb to evade a guard",
+    "Treasure warp via death abuse",
+    "Treasure warp via Episode menu",
+    "150+ coins in Follow Dimitri",
+    "Missed square boost in Satellite Sabotage",
+    "Damageless Rajan bossfight",
+
+    // Sly 3
+    "Sub 6:20 Big Truck segment",
+    "4+ loots in Octavio Snap",
+    "Damageless Octavio bossfight",
+    "Runner fails Vinegar Talk",
+
+    // Sly 4
+    "Duty Calls skip 2",
+    "Duty Calls skip 4",
+    "ICSS a normal cutscene in Sly 4",
+    "Paris loot in Sly 4",
+    "Mis-Menu while trying to Skip Cinematic",
+    "Missed ICSS in Getting Stronger",
+    "Successful quick-kill on Alter Ego boss",
+    "Paris ICSS",
+    "Damage-less Alter Ego hack"
+]
+
 var itemsSly4OptimalLoot = [
     "Runner dies",
     "Murray is used for looting",

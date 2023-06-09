@@ -1,6 +1,5 @@
 let urlParams = new URLSearchParams(window.location.search);
 let seed = urlParams.get('seed')
-let game = urlParams.get('game')
 let allCells = [
   'r1c1', 'r1c2', 'r1c3', 'r1c4', 'r1c5',
   'r2c1', 'r2c2', 'r2c3', 'r2c4', 'r2c5',
@@ -15,48 +14,17 @@ if (!seed) {
   seed = generateSeedString();
 }
 
-// no game tag picked -> make it general
-if (!game) {
-  game = "0";
-  const url = new URL(window.location.href);
-  url.searchParams.set('game', "0");
-  window.history.replaceState(null, null, url);
-}
-
 let mySeededRng = new Math.seedrandom('' + seed);
 
 function randomizeBoard() {
   mySeededRng = new Math.seedrandom('' + seed); // this is inconsistent if you pass a number instead of a string
 
-  if (game == "1") {
-    bingoItems = itemsSly1;
-  }
-  else if (game == "2") {
-    bingoItems = itemsSly2;
-  }
-  else if (game == "3") {
-    bingoItems = itemsSly3;
-  }
-  else if (game == "4") {
-    bingoItems = itemsSly4;
-  }
-  else if (game == "OLT") {
-    bingoItems = itemsSly4OptimalLoot;
-  }
-  else {
-    bingoItems = [];
-  }
-
-  bingoItems = bingoItems.concat(itemsGeneral);
+  bingoItems = itemsFectaRelay;
 
   let itemsOnTheBoard = [];
 
   for (let row = 1; row <= 5; row++) {
     for (let col = 1; col <= 5; col++) {
-      if (row === 3 && col === 3) {
-        // Free space
-        continue;
-      }
       let chosen = false
       while (!chosen) {
         let itemNum = getSeededRandomInt(1, bingoItems.length) - 1;
@@ -149,16 +117,13 @@ function rerollBoard() {
   randomizeBoard();
   document.querySelectorAll('.marked').forEach(ele => ele.classList.remove('marked'));
   document.querySelectorAll('.bingo').forEach(ele => ele.classList.remove('bingo'));
-  document.getElementById('r3c3-td').classList.add('marked'); // free space
 }
 
 function generateSeedString() {
   let urlParams = new URLSearchParams(window.location.search);
   let seed = Math.round(Math.random() * new Date().getTime())
-  //urlParams.set('seed', seed);
   const url = new URL(window.location.href);
   url.searchParams.set('seed', seed);
-  url.searchParams.set('game', game);
   window.history.replaceState(null, null, url);
   return seed;
 }
