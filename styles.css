@@ -1,5 +1,10 @@
+@font-face {
+    font-family: 'ubuntu';
+    src:  url('fonts/Blambot\ Casual\ Regular.ttf') format('truetype');
+}
+
 body {
-  font-family: Verdana, Helvetica, Arial, sans-serif;
+  font-family: ubuntu;
   background-color: #181a1b;
   color: #e8e6e3;
 }
@@ -54,7 +59,7 @@ h1 {
 
 h1 .header-sprite {
   display: inline-block;
-  height: 2em;
+  height: 3em;
   vertical-align: middle;
 }
 

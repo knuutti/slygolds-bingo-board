@@ -45,7 +45,7 @@ let itemsFectaRelay = [
     // General
     "Team USA misses a trick",
     "Team FIN misses a trick",
-    "Controller batter warning pop-up",
+    "Controller battery warning pop-up",
     "Stream drops frames",
     "Commentator takes bathroom break",
     "Unoptimal death",
@@ -58,6 +58,8 @@ let itemsFectaRelay = [
 
     // Sly 1
     "0:40 or better Down Home Cooking",
+    "First try successful Cletus Yeetus",
+    "Runner misses a Grim Panda",
 
     // Sly 2
     "Smoke bomb to evade a guard",
@@ -72,6 +74,7 @@ let itemsFectaRelay = [
     "4+ loots in Octavio Snap",
     "Damageless Octavio bossfight",
     "Runner fails Vinegar Talk",
+    "Gold Ring is looted (Sly 2/3)",
 
     // Sly 4
     "Duty Calls skip 2",
@@ -82,7 +85,9 @@ let itemsFectaRelay = [
     "Missed ICSS in Getting Stronger",
     "Successful quick-kill on Alter Ego boss",
     "Paris ICSS",
-    "Damage-less Alter Ego hack"
+    "Damage-less Alter Ego hack",
+    "0:30 or better Grand Key Larceny",
+    "0:50 or better Something Fishy"
 ]
 
 var itemsSly4OptimalLoot = [
