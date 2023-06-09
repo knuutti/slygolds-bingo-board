@@ -109,12 +109,12 @@ input{
     cursor: pointer;
 }
 
-.disabled{
+/* .disabled{
     border: 5px solid #d72b3f;
     background-color: #df5e6d;
     color: #d72b3f;
     cursor: auto;
-}
+} */
 
 .cookiepolicy{
     font-size: 20px;

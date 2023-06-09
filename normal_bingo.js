@@ -26,6 +26,7 @@ let choises = [
     ["Purchased wrong gadget in ThiefNet", ""],
 
     ["0:40 or better Down Home Cooking", ""],
+    ["Missed Grim Panda (Sly 1)", ""]
 
     ["Smoke bomb to evade a guard", ""],
     ["Treasure warp via death abuse", ""],

@@ -75,7 +75,7 @@ $(document).ready(function(){
 function set_bg_color(){
 
     let time = new Date()
-    let hour = 23;//time.getHours() + time.getMinutes()/60.0;
+    let hour = 23.8;//time.getHours() + time.getMinutes()/60.0;
     let low = 0
     let high = -1
     let times = Object.keys(bg_colors)
