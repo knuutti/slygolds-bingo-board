@@ -41,6 +41,35 @@ var itemsSly4 = [
     "Runner misses El Jefe one-cycle"
 ];
 
+let itemsACES = [
+    "Runner misses a square boost",
+    "No guards in the Ballroom",
+    "Superjump chain fails",
+    "Soundlock",
+    "Runner falls into void",
+    "Big Truck",
+    "Mis-Menu while trying to Skip Cinematic",
+    "Missed ICSS in Getting Stronger",
+    "3x or more Sumo minigame in Getting Stronger",
+    "Successful quick-kill on Alter Ego boss",
+    "Damage-less Alter Ego hack",
+    "Two or more dialogue skips in Duty Calls",
+    "Binocucom CSS",
+    "Galleth mentions Fortnite",
+    "0:30 or better Grand Key Larceny",
+    "Dies/Detected during RC segment",
+    "0:50 or better fishing in Something's Fishy",
+    "Damageless Rajan bossfight",
+    "Runner misses El Jefe one-cycle",
+    "Damageless Octavio bossfight",
+    "Runner fails Vinegar Talk",
+    "Tech issues on stream",
+    "Sly 1 is mentioned",
+    "4-2 gets banned",
+    "Runner playing on unoptimal version",
+    "Missed CSS"
+]
+
 let itemsFectaRelay = [
     // General
     "Team USA misses a trick",
